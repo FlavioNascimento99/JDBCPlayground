@@ -48,7 +48,10 @@ public class Database {
 	
 	/*
 	 * Aqui temos três métodos escritos com o mesmo objetivo; Fechar operações do sistema com o Banco de Dados
-	 * para liberar recursos da máquina.
+	 * para liberar recursos da máquina, é isso.
+	 * 
+	 * De maneira simplória, verificamos em cada função, se seu respectivo objeto é nulo, se não, iremos buscar o método estático da classe 
+	 * de origem para encerrar o seu processo.
 	 * */
 	
 	
@@ -107,6 +110,10 @@ public class Database {
 		}
 		
 	}
+	
+	
+	
+	
 	
 	
 	/*
